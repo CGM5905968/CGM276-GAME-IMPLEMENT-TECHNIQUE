@@ -12,7 +12,7 @@ app.get("/users",function(req,res){
     
 
     fs.readFile(__dirname+"/"+"user.json","utf8",function(err,data){
-    console.log(date);
+    console.log(data);
     res.send(data);
 
     });
